@@ -8,12 +8,10 @@ programa {
     escreva("Digite um número (1 - 10): ")
     leia(numero)
 
-    faca 
-    {
+    faca{
       escreva("\n", numero, " x ", contador, " = ", numero * contador)
       contador++
-    }
-    enquanto(contador <= 10)
+    }enquanto(contador <= 10)
 
 //Exercicio 2
 
