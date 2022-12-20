@@ -7,7 +7,8 @@ programa {
     escreva("Digite um número (1 - 10): ")
     leia(numero)
 
-    faca {
+    faca 
+    {
       escreva("\n", numero, " x ", contador, " = ", numero * contador)
       contador++
     }
