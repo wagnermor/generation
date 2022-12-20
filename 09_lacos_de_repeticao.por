@@ -1,6 +1,7 @@
 programa {
+
+//Exercício 1
   funcao inicio() {
-    //Exercício 01
     inteiro numero
     inteiro contador = 1
 
@@ -15,8 +16,8 @@ programa {
     enquanto(contador <= 10)
   }
 
+//Exercicio 2
   funcao inicio() {
-    //Exercício 02
     inteiro firstNumber
     inteiro secoundNumber
 
@@ -41,8 +42,8 @@ programa {
     }
   }
 
+//Exercício 4
   funcao inicio() {
-    //Exercício 04
     inteiro continua = 1
     inteiro idade
     inteiro somaTotalMenor21 = 0
