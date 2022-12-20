@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
-    //Exercício 01
+    //Exercicio 01
     inteiro numero
     inteiro contador = 1
 
-    escreva("Digite um número (1 - 10): ")
+    escreva("Digite um nï¿½mero (1 - 10): ")
     leia(numero)
 
     faca {
@@ -13,31 +13,31 @@ programa {
     }
     enquanto(contador <= 10)
 
-    //Exercício 02
+    //Exercicio 02
     inteiro firstNumber
     inteiro secoundNumber
 
     para(inteiro x = 0; x < 4; x++){
       inteiro eCrescente = 1
-      escreva("\nDigite o primeiro número do intervalo: ")
+      escreva("\nDigite o primeiro nï¿½mero do intervalo: ")
       leia(firstNumber)
-      escreva("\nDigite o segundo número do intervalo: ")
+      escreva("\nDigite o segundo nï¿½mero do intervalo: ")
       leia(secoundNumber)
 
       se(firstNumber < secoundNumber e firstNumber % 3 == 0)
-        escreva("\n",firstNumber, " é múltiplo de 5 e 3")
+        escreva("\n",firstNumber, " ï¿½ mï¿½ltiplo de 5 e 3")
       senao se(firstNumber < secoundNumber e firstNumber % 3 != 0)
-        escreva("\n",firstNumber, " não é múltiplo de 5 e 3")
+        escreva("\n",firstNumber, " nï¿½o ï¿½ mï¿½ltiplo de 5 e 3")
       senao
-        escreva("Intervalo inválido!")
+        escreva("Intervalo invï¿½lido!")
 
       se(firstNumber < secoundNumber e secoundNumber % 3 == 0)
-        escreva("\n", secoundNumber, " é múltiplo de 5 e 3")
+        escreva("\n", secoundNumber, " ï¿½ mï¿½ltiplo de 5 e 3")
       senao se(firstNumber < secoundNumber e secoundNumber % 3 != 0)
-        escreva("\n", secoundNumber, " não é múltiplo de 5 e 3")
+        escreva("\n", secoundNumber, " nï¿½o ï¿½ mï¿½ltiplo de 5 e 3")
     }
 
-    //Exercício 04
+    //Exercicio 04
     inteiro continua = 1
     inteiro idade
     inteiro somaTotalMenor21 = 0
