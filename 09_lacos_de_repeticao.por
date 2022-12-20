@@ -14,10 +14,9 @@ programa {
       contador++
     }
     enquanto(contador <= 10)
-  }
 
 //Exercicio 2
-  funcao inicio() {
+
     inteiro firstNumber
     inteiro secoundNumber
 
@@ -40,10 +39,9 @@ programa {
       senao se(firstNumber < secoundNumber e secoundNumber % 3 != 0)
         escreva("\n", secoundNumber, " não é múltiplo de 5 e 3")
     }
-  }
 
 //Exercício 4
-  funcao inicio() {
+
     inteiro continua = 1
     inteiro idade
     inteiro somaTotalMenor21 = 0
