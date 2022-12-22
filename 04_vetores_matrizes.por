@@ -1,5 +1,6 @@
 programa {
   inclua biblioteca Util --> u
+  inclua biblioteca Matematica --> mat
   funcao inicio() {
     //Exercicio 1
   
@@ -90,5 +91,28 @@ programa {
     escreva("\nSoma dos Elementos da Diagonal Principal:\n", somaPrincipal)
     escreva("\nSoma dos Elementos da Diagonal Secund√°ria:\n", somaSecundaria)
 
+
+    //Exercicio 4
+
+    real mediaLista[10]
+    real notasLista[10][4] = {{4,5,7,3},{2.5,6.5,4.7,8},{10,8.5,9.5,8},
+      {9,6.5,7.6,8.2},{5,5,5,6.3},{7,8,9,8.5},{5.5,3.5,2.5,1},
+      {8,9,10,9.5},{5.6,5.8,6.5,7},{7.5,8.5,9.5,10}}
+
+    para(inteiro x = 0; x < 10; x++) {
+      real mediaAluno = 0
+      para(inteiro y = 0; y < 4; y++) {
+        mediaAluno += notasLista[x][y]
+      }
+      mediaLista[x] = mat.arredondar(mediaAluno / 4, 1)
+    }
+    escreva("MÈdia de Alunos:\n")
+    para(inteiro x = 0; x < 10; x++){
+      cadeia espaco= " | "
+
+      se(x == 0)
+        espaco = ""
+      escreva(espaco, mediaLista[x])
+    }
   }
 }
