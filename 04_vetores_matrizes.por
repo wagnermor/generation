@@ -2,7 +2,7 @@ programa {
   inclua biblioteca Util --> u
   funcao inicio() {
     //Exercicio 1
-  /*
+  
     inteiro aux
     inteiro listaNumerica[] = {2, 5, 1, 3, 4, 9, 7, 8, 100, 6}
     //inteiro tamanhoDoVetor = u.numero_elementos(listaNumerica) 
@@ -23,9 +23,9 @@ programa {
   
     }
     escreva("\n", listaNumerica)
-*/
+
     //Exercicio 2
-/*
+
     inteiro elementoslista[] = {2,5,1,3,4,9,7,8,10,6}
     inteiro elementosIndicesPares[5]
     inteiro indice01 = 0
@@ -52,14 +52,14 @@ programa {
     }
       mediaElementos = somaElementos / tamanhoLista
 
-      escreva("\nElementos nos Ìndices pares: \n", elementosIndicesPares)
+      escreva("\nElementos nos √≠ndices pares: \n", elementosIndicesPares)
       escreva("\nElementos pares: \n", elementosPares)
       escreva("\nSoma: \n", somaElementos)
-      escreva("\nMÈdia: \n", mediaElementos)
+      escreva("\nM√©dia: \n", mediaElementos)
 
       //Exercicio 3
 
-    */ 
+    
     inteiro listaDiagonais[][] = {{1,2,3}, {4,5,6}, {7,8,9}}
     inteiro somaPrincipal = 0
     inteiro somaSecundaria = 0
@@ -75,7 +75,7 @@ programa {
       }
     }
 
-    escreva("\nElementos da Diagonal Secund·ria:\n")
+    escreva("\nElementos da Diagonal Secund√°ria:\n")
 
     para(inteiro x = 0; x < 3; x++) {
       para(inteiro y = 0; y < 3; y++) {
@@ -84,18 +84,11 @@ programa {
           escreva(listaDiagonais[x][y])
           somaSecundaria += listaDiagonais[x][y]
         }
-        /*se(x == 0 e y == 2){
-          escreva(listaDiagonais[x][y])
-        }
-
-        se(x == 2 e y == 0){
-          escreva(listaDiagonais[x][y])
-        }*/
       }
     }
 
     escreva("\nSoma dos Elementos da Diagonal Principal:\n", somaPrincipal)
-    escreva("\nSoma dos Elementos da Diagonal Secund·ria:\n", somaSecundaria)
+    escreva("\nSoma dos Elementos da Diagonal Secund√°ria:\n", somaSecundaria)
 
   }
 }
