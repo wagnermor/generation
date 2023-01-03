@@ -8,7 +8,7 @@ public class LacosCondicionaisJava02 {
 		Scanner ler = new Scanner(System.in);
 
 		//Exercicio 1
-		double number;
+		/*double number;
 		String par;
 		String positivo;
 
@@ -131,7 +131,7 @@ public class LacosCondicionaisJava02 {
 		else if(imposto > 0)
 			System.out.printf("Imposto de Renda: R$%.2f", imposto);
 		else
-			System.out.println("Digite um salário positivo!");
+			System.out.println("Digite um salário positivo!");*/
 		
 		//Exercio 5
 		
@@ -142,32 +142,60 @@ public class LacosCondicionaisJava02 {
 		
 		System.out.println("\n\nExercício 5:");
 		System.out.println("\nDigite a primeira palavra: ");
-		primeiraPalavra = ler.nextLine();
+		primeiraPalavra = ler.nextLine().toLowerCase();
 		
 		System.out.println("Digite a segunda palavra: ");
-		segundaPalavra = ler.nextLine();
+		segundaPalavra = ler.nextLine().toLowerCase();
 		
 		System.out.println("Digite a terceira palavra: ");
-		terceiraPalavra = ler.nextLine();
+		terceiraPalavra = ler.nextLine().toLowerCase();
 		
-		if(primeiraPalavra == "vertebrado" && segundaPalavra == "ave" && terceiraPalavra == "carnivoro")
+		if(primeiraPalavra.equals("vertebrado") && segundaPalavra.equals("ave") && terceiraPalavra.equals("carnivoro"))
 			animal = "Águia";
-		else if(primeiraPalavra == "vertebrado" && segundaPalavra == "ave" && terceiraPalavra == "onivoro")
+		else if(primeiraPalavra.equals("vertebrado") && segundaPalavra.equals("ave") && terceiraPalavra.equals("onivoro"))
 			animal = "Pomba";
-		else if(primeiraPalavra == "vertebrado" && segundaPalavra == "mamifero" && terceiraPalavra == "onivoro")
+		else if(primeiraPalavra.equals("vertebrado") && segundaPalavra.equals("mamifero") && terceiraPalavra.equals("onivoro"))
 			animal = "Homem";
-		else if(primeiraPalavra == "vertebrado" && segundaPalavra == "mamifero" && terceiraPalavra == "herbivero")
+		else if(primeiraPalavra.equals("vertebrado") && segundaPalavra.equals("mamifero") && terceiraPalavra.equals("herbivero"))
 			animal = "Vaca";
-		else if(primeiraPalavra == "invertebrado" && segundaPalavra == "inseto" && terceiraPalavra == "hematofago")
+		else if(primeiraPalavra.equals("invertebrado") && segundaPalavra.equals("inseto") && terceiraPalavra.equals("hematofago"))
 			animal = "Pulga";
-		else if(primeiraPalavra == "invertebrado" && segundaPalavra == "inseto" && terceiraPalavra == "carnivoro")
+		else if(primeiraPalavra.equals("invertebrado") && segundaPalavra.equals("inseto") && terceiraPalavra.equals("herbivoro"))
 			animal = "Lagarta";
-		else if(primeiraPalavra == "invertebrado" && segundaPalavra == "anelideo" && terceiraPalavra == "hematofago")
+		else if(primeiraPalavra.equals("invertebrado") && segundaPalavra.equals("anelideo") && terceiraPalavra.equals("hematofago"))
 			animal = "Sanguessuga";
-		else if(primeiraPalavra == "invertebrado" && segundaPalavra == "anelideo" && terceiraPalavra == "onivoro")
+		else if(primeiraPalavra.equals("invertebrado") && segundaPalavra.equals("anelideo") && terceiraPalavra.equals("onivoro"))
 			animal = "Minhoca";
 		
-		System.out.printf(animal);
+		/*if(primeiraPalavra.equals("vertebrado")) {
+			if(segundaPalavra.equals("ave")) {
+				if(terceiraPalavra.equals("carnivoro"))
+					animal = "Águia";
+				else
+					animal = "Pomba";
+				
+			}else {
+				if(terceiraPalavra.equals("onivoro"))
+					animal = "Homem";
+				else
+					animal = "Vaca";
+			}
+		} else {
+			if(segundaPalavra.equals("inseto")) {
+				if(terceiraPalavra.equals("hematofago"))
+					animal = "Pulga";
+				else
+					animal = "Lagarta";
+				
+			}else {
+				if(terceiraPalavra.equals("hematofago"))
+					animal = "Sanguessuga";
+				else
+					animal = "Minhoca";
+			}
+		}*/
+		
+		System.out.printf("Animal: %s", animal);
 	}
 
 }
