@@ -8,7 +8,7 @@ public class LacosCondicionaisJava02 {
 		Scanner ler = new Scanner(System.in);
 
 		//Exercicio 1
-		/*double number;
+		double number;
 		String par;
 		String positivo;
 
@@ -131,7 +131,7 @@ public class LacosCondicionaisJava02 {
 		else if(imposto > 0)
 			System.out.printf("Imposto de Renda: R$%.2f", imposto);
 		else
-			System.out.println("Digite um salário positivo!");*/
+			System.out.println("Digite um salário positivo!");
 		
 		//Exercio 5
 		
