@@ -9,7 +9,7 @@ public class ExerciciosArray_12 {
 		
 		//Exercício 1
 		
-		/*int numeros[] = {2, 5, 1, 3, 4, 9, 7, 8, 10, 6};
+		int numeros[] = {2, 5, 1, 3, 4, 9, 7, 8, 10, 6};
 		int numero;
 		
 		System.out.printf("Digite o número que você deseja encontrar: ");
@@ -66,7 +66,7 @@ public class ExerciciosArray_12 {
 			somaDiagonalSecundaria += matriz03[x][3-1-x];
 		}
 		System.out.printf("\nSoma dos Elementos da Diagonal Principal: %d", somaDiagonalPrincipal);
-		System.out.printf("\nSoma dos Elementos da Diagonal Secundária: %d", somaDiagonalSecundaria);*/
+		System.out.printf("\nSoma dos Elementos da Diagonal Secundária: %d", somaDiagonalSecundaria);
 		
 		//Exercício 4
 		
