@@ -8,6 +8,8 @@ public class Curso {
 	private int numeroAlunos;
 	private double valor;
 	
+	public Curso(){}
+	
 	public Curso(
 			String nome,
 			String nomeProfessor,
