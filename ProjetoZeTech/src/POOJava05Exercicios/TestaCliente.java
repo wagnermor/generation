@@ -1,4 +1,3 @@
-new
 package POOJava05Exercicios;
 
 public class TestaCliente {
